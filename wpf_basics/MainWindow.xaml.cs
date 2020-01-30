@@ -24,5 +24,10 @@ namespace wpf_basics
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("My message!");
+        }
     }
 }
